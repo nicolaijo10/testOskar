@@ -1,8 +1,11 @@
 class Human():
-  def __init__(self, height, race, speed):
+  def __init__(self, height, race, speed, cockSize):
     self.height = height
     self.race = race
     self.speed = speed
+    self.cockSize = cockSize
   def get_race():
     return self.race
-Afroamerican = Human(188, Black, 30)
+
+Afroamerican = Human(188, "Black", 30, 22)
+Cacausian = Human(172, "white", 15, 15)
